@@ -14,3 +14,5 @@ def init_app(app: Flask):
     app.db = db
 
     from app.models.category_model import Category
+    from app.models.eisenhower_model import Eisenhower
+    from app.models.tasks_model import Task
