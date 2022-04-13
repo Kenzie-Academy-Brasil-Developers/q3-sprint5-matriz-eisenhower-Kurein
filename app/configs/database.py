@@ -16,3 +16,4 @@ def init_app(app: Flask):
     from app.models.category_model import Category
     from app.models.eisenhower_model import Eisenhower
     from app.models.tasks_model import Task
+    from app.models.tasks_categories_model import Task_Category
