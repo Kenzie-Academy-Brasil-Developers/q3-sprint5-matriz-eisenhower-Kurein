@@ -1,4 +1,4 @@
-from flask import request, jsonify, session
+from flask import request
 from http import HTTPStatus
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.session import Session
