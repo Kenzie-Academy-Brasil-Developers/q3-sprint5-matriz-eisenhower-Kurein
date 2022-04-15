@@ -14,6 +14,7 @@ class Task(db.Model):
     task_id = Column(Integer, primary_key=True)
     name = Column(VARCHAR(100), nullable=False, unique=True)
     description = Column(TEXT)
+    duration = Column(Integer)
     importance = Column(Integer)
     urgency = Column(Integer)
 

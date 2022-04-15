@@ -9,6 +9,6 @@ def init_app(app: Flask):
 
     bp_api.register_blueprint(categories_bp)
     bp_api.register_blueprint(tasks_bp)
-    bp_api.register_blueprint(tasks_categories_bp)
 
+    app.register_blueprint(tasks_categories_bp)
     app.register_blueprint(bp_api)

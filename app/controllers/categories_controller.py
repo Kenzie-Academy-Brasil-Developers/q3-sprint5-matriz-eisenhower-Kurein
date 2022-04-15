@@ -1,7 +1,6 @@
 from flask import request, jsonify
 from http import HTTPStatus
 from sqlalchemy.orm.session import Session
-from sqlalchemy.orm import Query
 from app.configs.database import db
 from app.models.category_model import Category
 from sqlalchemy.exc import IntegrityError
